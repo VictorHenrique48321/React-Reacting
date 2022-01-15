@@ -1,0 +1,29 @@
+.main {
+  background: #fff;
+  height: calc(100vh - 50px);
+  display: inline-block;
+}
+
+.main-home {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.main-icone {
+  margin-top: 2rem;
+  height: 200px;
+  width: 200px;
+}
+
+.main-title {
+  font-size: 80px;
+  height: 100px;
+  margin-top: 2rem;
+  color: #01627f;
+}
+
+.main-sobre {
+  margin-top: 2rem;
+  font-size: 24px;
+  color: #01627f;
+}

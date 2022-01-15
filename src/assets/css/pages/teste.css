@@ -1,0 +1,42 @@
+.testes {
+  background: #fff;
+  height: calc(100vh - 50px);
+}
+
+.testes-testes {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  height: calc(100vh - 50px);
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.testes-teste {
+  width: 30%;
+  border: 5px solid #01627f;
+  border-radius: 20px;
+  margin: .5rem;
+  height: 280px;
+  text-align: center;
+}
+
+.testes-teste:hover {
+  cursor: pointer;
+}
+
+.testes-imagem {
+  width: 80px;
+  margin: 1rem;
+}
+
+.testes-titulo {
+  margin: 1rem;
+  font-size: 30px;
+}
+
+.testes-sobre {
+  font-size: 23px;
+  margin: .5rem;
+}
