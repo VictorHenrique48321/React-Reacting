@@ -1,0 +1,61 @@
+.test-chimpanze-tabela {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.test-chimpanze-informacaoLevel {
+  color: white;
+  font-size: 36px;
+  margin: 1rem;
+}
+
+.test-chimpanze-quantidadeNumeros {
+  color: white;
+  font-size: 80px;
+}
+
+.test-chimpanze-vidaRestante {
+  color: white;
+  font-size: 36px;
+  margin: 1rem;
+}
+
+.test-chimpanze-comecar {
+  width: 150px;
+  height: 45px;
+  background-color: rgb(154, 112, 0);
+  color: white;
+}
+
+.test-chimpanze-posicao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-chimpanze-numero {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-chimpanze-numeroSelecionado {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  border: 5px solid orange;
+  border-radius: 10px;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  color: #226ca7;
+  font-size: 34px;
+}

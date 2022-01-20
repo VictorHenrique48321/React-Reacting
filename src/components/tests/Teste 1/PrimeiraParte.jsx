@@ -1,8 +1,6 @@
 import React from 'react'
 
 import keyBoard from "../../../assets/image/keyboard.png"
-import language from "../../../assets/image/language.png"
-import monkey from "../../../assets/image/monkey.png"
 import numbers from "../../../assets/image/numbers.png"
 
 const PrimeiraParte = (props) => {

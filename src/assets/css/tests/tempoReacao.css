@@ -18,17 +18,20 @@
   text-align: center;
   margin: 2rem;
   font-size: 80px;
+  color: white;
 }
 
 .test-introducao {
   text-align: center;
   font-size: 24px;
+  color: white;
 }
 
 .test-iniciar {
   font-size: 24px;
   text-align: center;
   margin-top: 3rem;
+  color: white;
 }
 
 /* ---------------------------------Teste Ativo---------------------------------------- */

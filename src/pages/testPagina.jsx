@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom'
 
 import TempoReacao from '../components/tests/TempoReacao'
 import TreinarMira from '../components/tests/TreinarMira'
+import MemoriaVerbal from '../components/tests/MemoriaVerbal'
+import TesteChimpanze from '../components/tests/TesteChimpanze'
 
 import "../assets/css/pages/testPagina.css"
 
@@ -11,6 +13,10 @@ function TestPagina() {
   let listaTestes = [
     `{"test":"Temporeacao"}`, TempoReacao,
     `{"test":"Treinarmira"}`, TreinarMira,
+    `{"test":"Memoriaverbal"}`, MemoriaVerbal,
+    `{"test":"Testechimpanze"}`, TesteChimpanze,
+    // `{"test":"Temporeacao"}`, TempoReacao,
+    // `{"test":"Treinarmira"}`, TreinarMira,
   ]
 
   function validarTest() {
