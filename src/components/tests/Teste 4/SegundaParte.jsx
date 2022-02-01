@@ -111,7 +111,7 @@ const SegundaParte = () => {
   function iniciarTeste() {
     setDivCriada(true)
     if (erros === 3) {
-
+      level.current = 0
       setErros(0)
     }
   }

@@ -1,0 +1,89 @@
+.test-MemoriaNumerica-layout {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.test-MemoriaNumerica-numero {
+  font-size: 48px;
+  color: white;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.test-MemoriaNumerica-texto {
+  font-size: 36px;
+  color: white;
+}
+
+.test-MemoriaNumerica-explicacao {
+  font-size: 24px;
+  color: white;
+  margin: 1rem;
+  opacity: 70%;
+}
+
+.test-MemoriaNumerica-digitarNumero {
+  border-radius: 5px;
+  height: 50px;
+  width: 70%;
+  background-color: rgba(0, 0, 80, 0.2);
+  outline: none;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+}
+
+.test-MemoriaNumerica-botao {
+  background-color: rgb(154, 112, 0);
+  margin: 1rem;
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-size: 24px;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.test-MemoriaNumerica-numeroStatus {
+  font-size: 36px;
+  color: white;
+}
+
+.test-MemoriaNumerica-numeroGerado {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.test-MemoriaNumerica-numeroDigitadoStatus {
+  font-size: 36px;
+  color: white;
+}
+
+.test-MemoriaNumerica-numeroDigitado {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.test-MemoriaNumerica-Level {
+  font-size: 48px;
+  color: white;
+}
+
+.test-MemoriaNumerica-levelNumero {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.test-MemoriaNumerica-botaoLevel {
+  width: 175px;
+  height: 40px;
+  background-color: rgb(154, 112, 0);
+  font-size: 24px;
+  color: white;
+}

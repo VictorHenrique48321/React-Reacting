@@ -5,6 +5,7 @@ import TempoReacao from '../components/tests/TempoReacao'
 import TreinarMira from '../components/tests/TreinarMira'
 import MemoriaVerbal from '../components/tests/MemoriaVerbal'
 import TesteChimpanze from '../components/tests/TesteChimpanze'
+import Memorianumerica from '../components/tests/MemoriaNumerica'
 
 import "../assets/css/pages/testPagina.css"
 
@@ -15,7 +16,7 @@ function TestPagina() {
     `{"test":"Treinarmira"}`, TreinarMira,
     `{"test":"Memoriaverbal"}`, MemoriaVerbal,
     `{"test":"Testechimpanze"}`, TesteChimpanze,
-    // `{"test":"Temporeacao"}`, TempoReacao,
+    `{"test":"Memorianumerica"}`, Memorianumerica,
     // `{"test":"Treinarmira"}`, TreinarMira,
   ]
 
