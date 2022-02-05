@@ -1,5 +1,4 @@
-import React from 'react'
-import { useRef, useState, useEffect } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 
 import "../../../assets/css/tests/chimpanze.css"
 
@@ -124,8 +123,6 @@ const SegundaParte = () => {
       manipularDivs(4)
     }
   }, [criarDivs])
-
-
 
   if (!divCriada && erros <= 2) {
     return (

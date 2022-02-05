@@ -1,5 +1,4 @@
-import React from 'react'
-import { useState } from 'react/cjs/react.development'
+import React, { useState } from 'react'
 
 import PrimeiraParte from './Teste 1/PrimeiraParte'
 import SegundaParte from './Teste 4/SegundaParte'
