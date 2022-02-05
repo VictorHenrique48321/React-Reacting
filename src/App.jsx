@@ -2,7 +2,6 @@ import Cabecalho from './components/Cabecalho';
 import Home from './pages/home';
 import Teste from './pages/teste';
 import TestPagina from './pages/testPagina';
-import PageNotFound from './pages/pageNotFound';
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 
