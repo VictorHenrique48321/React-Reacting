@@ -10,10 +10,7 @@ const Home = () => {
         <img className="main-icone" src={icone} alt="pesquisa" />
         <h1 className='main-title'>React Reacting</h1>
         <p className='main-sobre'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel tellus pulvinar,
-          feugiat risus quis, fermentum tellus. Pellentesque posuere enim vitae rhoncus malesuada.
-          Etiam suscipit, lorem ut consectetur dictum, odio risus tristique tortor, sed molestie arcu
-          lorem quis diam.
+          Site feito com o propósito de praticar e aprimorar minhas habilidades, é composto de diversos testes feitos com o propósito de medir sua habilidades com jogos
         </p>
       </div>
     </main>

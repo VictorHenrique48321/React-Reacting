@@ -18,12 +18,6 @@ const Cabecalho = () => {
             <p>Testes</p>
           </Link>
         </div>
-        <div className='header-conta'>
-          <div className='header-pagina' id='header-conta'>
-            <a className='header-link' href="#"><p>Cadastrar</p></a>
-            <a className='header-link' href="#"><p>Logar</p></a>
-          </div>
-        </div>
       </div>
     </header>
   )

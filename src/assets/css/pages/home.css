@@ -1,5 +1,5 @@
 .main {
-  background: #fff;
+  background: #226ca7;
   height: calc(100vh - 50px);
   display: inline-block;
 }
@@ -19,11 +19,11 @@
   font-size: 80px;
   height: 100px;
   margin-top: 2rem;
-  color: #01627f;
+  color: white;
 }
 
 .main-sobre {
   margin-top: 2rem;
   font-size: 24px;
-  color: #01627f;
+  color: white;
 }

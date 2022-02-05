@@ -1,0 +1,67 @@
+.digitando-layout {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.digitando-hud {
+  width: 80%;
+  height: 80%;
+  padding: 1.5rem;
+  background-color: #4c9be6;
+  border-radius: .5rem;
+  font-size: 24px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.digitando-texto {
+  text-align: center;
+  user-select: none;
+}
+
+.digitando-digitar-texto {
+  margin: 1rem;
+  width: 800px;
+  max-width: 90%;
+  height: 400px;
+  border: 3px solid #123455;
+  background-color: transparent;
+  outline: none;
+  resize: none;
+  color: white;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  pointer-events: none;
+}
+
+.errada {
+  background-color: red;
+}
+
+.correta {
+  background-color: #08ed1ade;
+}
+
+.digitando-status {
+  font-size: 48px;
+  color: white;
+  margin: 2rem;
+}
+
+.digitando-score {
+  color: white;
+  font-size: 36px;
+}
+
+.digitando-reiniciar {
+  color: white;
+  font-size: 36px;
+  margin-top: 2rem;
+}

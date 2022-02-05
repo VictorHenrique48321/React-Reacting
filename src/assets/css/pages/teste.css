@@ -1,6 +1,7 @@
 .testes {
   background: #fff;
   height: calc(100vh - 50px);
+  background-color: #226ca7;
 }
 
 .testes-testes {
@@ -15,7 +16,7 @@
 
 .testes-teste {
   width: 30%;
-  border: 5px solid #01627f;
+  border: 5px solid rgba(0, 0, 80, 0.2);
   border-radius: 20px;
   margin: .5rem;
   height: 280px;
@@ -34,9 +35,11 @@
 .testes-titulo {
   margin: 1rem;
   font-size: 30px;
+  color: white;
 }
 
 .testes-sobre {
   font-size: 23px;
   margin: .5rem;
+  color: white
 }

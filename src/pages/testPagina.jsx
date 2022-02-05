@@ -6,6 +6,7 @@ import TreinarMira from '../components/tests/TreinarMira'
 import MemoriaVerbal from '../components/tests/MemoriaVerbal'
 import TesteChimpanze from '../components/tests/TesteChimpanze'
 import Memorianumerica from '../components/tests/MemoriaNumerica'
+import Digitando from '../components/tests/Digitando'
 
 import "../assets/css/pages/testPagina.css"
 
@@ -17,7 +18,7 @@ function TestPagina() {
     `{"test":"Memoriaverbal"}`, MemoriaVerbal,
     `{"test":"Testechimpanze"}`, TesteChimpanze,
     `{"test":"Memorianumerica"}`, Memorianumerica,
-    // `{"test":"Treinarmira"}`, TreinarMira,
+    `{"test":"Digitando"}`, Digitando,
   ]
 
   function validarTest() {
