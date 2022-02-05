@@ -1,5 +1,5 @@
 import React from 'react'
-import { useRef, useState, useEffect } from 'react/cjs/react.development'
+import { useRef, useState, useEffect } from 'react'
 
 import "../../../assets/css/tests/chimpanze.css"
 
