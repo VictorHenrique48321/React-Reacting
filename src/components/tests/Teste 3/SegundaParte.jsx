@@ -54,6 +54,7 @@ const SegundaParte = () => {
 
   function reiniciarTeste() {
     vida.current = 3
+    palavraRepetida.current = []
     pontuacao.current = 0
     setRender(!render)
   }

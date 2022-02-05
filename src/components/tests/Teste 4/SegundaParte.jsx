@@ -57,8 +57,6 @@ const SegundaParte = () => {
 
       } else {
 
-        console.log("Numero Repetido" + selecionarDiv)
-
         let novaDiv = selecionarDiv + 1
 
         while (array.includes(novaDiv)) {
@@ -77,7 +75,7 @@ const SegundaParte = () => {
   }
 
   function validarClique(e) {
-    if (e.target.innerHTML === validarOrdem.current) {
+    if (e.target.innerHTML == validarOrdem.current) {
 
       for (let i = 0; i < pegarDivs.current.length; i++) {
         if (pegarDivs.current[i].className === 'test-chimpanze-numeroSelecionado') {

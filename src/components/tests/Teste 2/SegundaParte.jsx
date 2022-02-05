@@ -32,9 +32,6 @@ const SegundaParte = (props) => {
 
       const hora = new Date().getTime()
       const pontuacao = (hora - tempoIniciar[0]) / 20
-      console.log(hora)
-      console.log(tempoIniciar[0])
-      console.log(pontuacao)
 
       return (
         <div className='test-treinarMira-resultado' onClick={reiniciarTest}>
