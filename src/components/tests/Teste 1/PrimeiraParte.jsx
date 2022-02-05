@@ -1,8 +1,5 @@
 import React from 'react'
 
-import keyBoard from "../../../assets/image/keyboard.png"
-import numbers from "../../../assets/image/numbers.png"
-
 const PrimeiraParte = (props) => {
 
   return (

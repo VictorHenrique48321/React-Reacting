@@ -78,7 +78,7 @@ const SegundaParte = () => {
   }
 
   function validarClique(e) {
-    if (e.target.innerHTML == validarOrdem.current) {
+    if (e.target.innerHTML === validarOrdem.current) {
 
       for (let i = 0; i < pegarDivs.current.length; i++) {
         if (pegarDivs.current[i].className === 'test-chimpanze-numeroSelecionado') {

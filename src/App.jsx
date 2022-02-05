@@ -14,13 +14,9 @@ function App() {
     <Router>
       <Cabecalho />
       <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-      <Routes>
-        <Route path="/testes" element={<Teste />} />
-      </Routes>
-      <Routes>
+        <Route exact path="/" element={<Home />} />
         <Route path="/testes/:test" element={<TestPagina />} />
+        <Route path="/testes" element={<Teste />} />
       </Routes>
     </Router>
   );

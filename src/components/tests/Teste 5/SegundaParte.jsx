@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 
 import "../../../assets/css/tests/memoriaNumerica.css"
 
@@ -23,7 +23,7 @@ const SegundaParte = () => {
 
   function gerarNumero() {
 
-    if (verificarTela == "gerarNumero") {
+    if (verificarTela === "gerarNumero") {
       const numeroGerado = Math.floor(Math.random() * quantidadeNumeros.current)
       armazenarNumero.current = numeroGerado
       return numeroGerado
@@ -35,7 +35,7 @@ const SegundaParte = () => {
     setVerificarTela("status")
 
 
-    if (pegarNumeroInput.current.value == armazenarNumero.current) {
+    if (pegarNumeroInput.current.value === armazenarNumero.current) {
       quantidadeNumeros.current = +quantidadeNumeros.current + "9"
       level.current = level.current + 1
       verificarResposta.current = "acertou"
@@ -56,19 +56,14 @@ const SegundaParte = () => {
     }
   }
 
-  useEffect(() => {
-    console.log(armazenarNumero.current)
-  }, [armazenarNumero.current]);
-
-
-  if (verificarTela == "gerarNumero") {
+  if (verificarTela === "gerarNumero") {
     return (
       <div className='test-MemoriaNumerica-layout'>
         <div className='test-MemoriaNumerica-numero'>{gerarNumero()}</div>
         {mudarParaCampoVazio()}
       </div>
     )
-  } else if (verificarTela == "digitarNumero") {
+  } else if (verificarTela === "digitarNumero") {
     return (
       <div className='test-MemoriaNumerica-layout'>
         <h1 className='test-MemoriaNumerica-texto'>Qual era o numero</h1>
@@ -77,7 +72,7 @@ const SegundaParte = () => {
         <button className='test-MemoriaNumerica-botao' onClick={adicionarMaisUmNumero}>Continuar</button>
       </div>
     )
-  } else if (verificarTela == "status") {
+  } else if (verificarTela === "status") {
     return (
       <div className='test-MemoriaNumerica-layout'>
         <h1 className='test-MemoriaNumerica-numeroStatus'>Numero</h1>
