@@ -18,7 +18,7 @@ const SegundaParte = (props) => {
             <img
               className='test-treinarMira-alvo'
               src={props.alvo} alt="alvo"
-              onClick={retornar, adicionarUm}
+              onClick={adicionarUm}
               style=
               {{
                 marginTop: posicaoAlvo[1],
@@ -49,6 +49,7 @@ const SegundaParte = (props) => {
   }
 
   function adicionarUm() {
+    retornar()
     const hora = new Date().getTime()
     setReiniciar(reiniciar + 1)
     setTempoIniciar([...tempoIniciar, hora])

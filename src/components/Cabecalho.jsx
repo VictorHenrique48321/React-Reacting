@@ -12,11 +12,6 @@ const Cabecalho = () => {
             <p>Home</p>
           </Link>
         </div>
-        <div className='header-pagina'>
-          <Link to="/testes" className='header-link'>
-            <p>Testes</p>
-          </Link>
-        </div>
       </div>
     </header>
   )

@@ -1,5 +1,4 @@
 import Cabecalho from './components/Cabecalho';
-import Home from './pages/home';
 import Teste from './pages/teste';
 import TestPagina from './pages/testPagina';
 
@@ -14,9 +13,8 @@ function App() {
     <Router>
       <Cabecalho />
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/" element={<Teste />} />
         <Route path="/testes/:test" element={<TestPagina />} />
-        <Route path="/testes" element={<Teste />} />
       </Routes>
     </Router>
   );
