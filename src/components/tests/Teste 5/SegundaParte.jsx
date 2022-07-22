@@ -34,7 +34,10 @@ const SegundaParte = () => {
 
     setVerificarTela("status")
 
-    if (pegarNumeroInput.current.value == armazenarNumero.current) {
+    console.log(typeof pegarNumeroInput.current.value)
+    console.log(typeof armazenarNumero.current)
+
+    if (Number(pegarNumeroInput.current.value) === armazenarNumero.current) {
       quantidadeNumeros.current = +quantidadeNumeros.current + "9"
       level.current = level.current + 1
       verificarResposta.current = "acertou"
